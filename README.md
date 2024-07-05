@@ -1,8 +1,9 @@
-# Paper Minecraft server
+#Paper Minecraft server
 
 ## Building
 
 In root folder, run:
+
 ''' bash
 podman build -t mypapermc
 ```
