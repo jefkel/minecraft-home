@@ -4,13 +4,13 @@
 
 In root folder, run:
 
-''' bash
+``` bash
 podman build -t mypapermc
 ```
 
 ## Running
 
-''' bash
+``` bash
 MC_VERSION="1.21"
 PAPER_BUILD="44"
 EULA="true"
@@ -24,5 +24,5 @@ podman l --name mypapermc -dt \
   -e MC_RAM=${MC_RAM} \
   -p 25565:25565 -p 25575:25575 \
   papermc 
-'''
+```
 
